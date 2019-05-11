@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  color: black;
+  color: #f0dc4f;
   font-size: 30px;
   margin-top: 50px;
   text-align: center;
@@ -43,7 +43,7 @@ header i {
 }
 
 #navbar li {
-  color: #4d4e53;
+  color: #ffffff;
   border: 1px solid;
   border-bottom-width: 0px;
   padding: 8px;
@@ -55,11 +55,15 @@ header i {
 
 }
 
+a {
+  color: whitesmoke;
+}
 #navbar a {
   color: #4d4e53;
   text-decoration: none;
   cursor: pointer;
 }
+
 
 #main-doc {
   position: absolute;
@@ -70,9 +74,9 @@ header i {
 }
 
 section article {
-  color: #4d4e53;
+  color: #ffffff;
   margin: 15px;
-  font-size: 0.96em;
+  font-size: 1rem;
 }
 
 section li {
@@ -91,6 +95,7 @@ code {
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
+  color: black;
 }
 
 @media only screen and (max-width: 815px) {
@@ -138,4 +143,6 @@ code {
     padding-right: 45px;
     min-width: 233px;
   }
+
+  
 }
